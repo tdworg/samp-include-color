@@ -184,5 +184,5 @@ freely, subject to the following restrictions:
 
 
 
-#define COLOR%0<%1> (@COLOR@RED<0x,ff>)
+#define COLOR%0<%1> (@COLOR@%1<0x,ff>)
 #define SCOLOR%0<%1> (#@COLOR@%1<\x7B;,\x7D;>)
