@@ -182,7 +182,6 @@ freely, subject to the following restrictions:
 #define @COLOR@YELLOW<%1,%2>							%1FFFF00%2
 #define @COLOR@YELLOWGREEN<%1,%2>						%19ACD32%2
 
-
-
 #define COLOR%0<%1> (@COLOR@%1<0x,ff>)
+#define COLORA%0<%1,%2> (@COLOR@%1<0x,%2>)
 #define SCOLOR%0<%1> (#@COLOR@%1<\x7B;,\x7D;>)
